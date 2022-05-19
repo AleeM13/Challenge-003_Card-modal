@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    width: 680px;
+    height: 830px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 70px auto;
+    border-radius: 20px;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: #203774;
+    padding: 30px;
+    color: #fff;
+    border-radius: 20px 20px 0 0;
+    font-size: .9em;
+}
+
+.barra a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fecha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+
+.fecha a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sep {
+    text-align: center;
+    margin: 0 45px;
+}
+
+.sep p {
+    font-size: 1.6em;
+    font-weight: 700;
+    padding-bottom: 7px;
+}
+
+.sep span {
+    font-size: .8em;
+    font-weight: 700;
+}
+
+.sub-container {
+    background-color: #203774;
+    width: 480px;
+    height: 230px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin: 40px;
+    padding-top: 40px;
+}
+
+.texto h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.texto p {
+    padding-top: 20px;
+    font-size: .8em;
+}
+
+.boton button {
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    font-size: .9em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.dr {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: .9em;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+img {
+    border-radius: 50%;
+    width: 40px;
+    height: 41px;
+    border: 3px solid #4868BD;
+    margin-right: 10px;
+}
