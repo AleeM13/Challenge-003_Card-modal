@@ -35,6 +35,14 @@ body {
     color: #fff;
 }
 
+.material-symbols-outlined {
+    transition: all .2s;
+}
+
+.material-symbols-outlined:hover {
+    font-size: 2.1em;
+}
+
 .fecha {
     display: flex;
     align-items: center;
@@ -99,6 +107,13 @@ body {
     font-size: .9em;
     font-weight: 700;
     cursor: pointer;
+    transition: all .2s;
+}
+
+.boton button:hover {
+    width: 135px;
+    height: 45px;
+    background-color: #ddd;
 }
 
 .dr {
@@ -117,3 +132,81 @@ img {
     border: 3px solid #4868BD;
     margin-right: 10px;
 }
+
+@media (min-width: 320px) and (max-width: 800px) {
+    .container {
+        width: 315px;
+        height: 650px;
+        margin: 60px auto;
+    }
+
+    .barra {
+        height: 70px;
+        padding: 20px;
+        font-size: .7em;
+    }
+
+    .material-symbols-outlined:hover {
+        font-size: 1.8em;
+    }
+
+    .fecha {
+        margin: 50px;
+    }
+    
+    .sep {
+        margin: 0 20px;
+    }
+    
+    .sep p {
+        font-size: 1.1em;
+        padding-bottom: 3px;
+    }
+    
+    .sep span {
+        font-size: .6em;
+    }
+    
+    .sub-container {
+        width: 290px;
+        height: 170px;
+        margin: 20px auto;
+    }
+    
+    .contenido {
+        margin: 17px;
+        padding-top: 22px;
+    }
+    
+    .texto h3 {
+        font-size: 1.2em;
+    }
+    
+    .texto p {
+        padding-top: 15px;
+        font-size: .7em;
+    }
+    
+    .boton button {
+        width: 95px;
+        height: 28px;
+        font-size: .7em;
+    }
+    
+    .boton button:hover {
+        width: 100px;
+        height: 33px;
+        background-color: #ddd;
+    }
+
+    .dr {
+        font-size: .8em;
+        margin-left: 17px;
+        padding-top: 25px;
+    }
+    
+    img {
+        width: 34px;
+        height: 35px;
+    }
+}    
